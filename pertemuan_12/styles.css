@@ -1,0 +1,79 @@
+/* p {
+    color: green;
+}
+
+.rivo {
+    color: blue;
+}
+
+.tumulo {
+    color: red;
+}
+
+.feedback {
+    border-width: 10 px;
+    border-style: double;
+    border-color: greenyellow;
+    border: 10 px solid greenyellow;
+}
+
+p.chandra {
+    color: black;
+}
+
+p.septiano.feedback {
+    color: green;
+} */
+
+div p {
+    color: green;
+}
+
+div .tumulo{
+    color: blue;
+}
+
+#top-pipo{
+    background-color: burlywood;
+}
+
+#bottom-pipo{
+    background-color: brown;
+}
+
+a[href] {
+    font-size: 20px;
+    text-decoration: crimson;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+a[href="www.google.com"] {
+    background-color: silver;
+}
+
+a[href*="facebook"] {
+    background-color: gold;
+}
+
+a[href$=".ac.id"]{
+    background-color: hotpink;
+}
+
+div h2{
+    text-transform: uppercase;
+}
+
+h2:hover{
+    color: green;
+    background-color: black;    
+}
+
+p::selection{
+    background-color: green;
+    color: white;
+}
+
+a::before{
+    content: "link -";
+}
