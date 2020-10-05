@@ -1,0 +1,21 @@
+.img1{
+    display: block;
+    background-color: greenyellow;
+    padding: 10px;
+    border: 20px solid green;
+    margin: 0 0 0 0;
+}
+.img2{
+    display: block;
+    background-color: greenyellow;
+    padding: 10px;
+    border: 20px solid green;
+    margin: 0 0 0 180px;
+}
+.img3{
+    display: block;
+    background-color: greenyellow;
+    padding: 10px;
+    border: 20px solid green;
+    margin: 0 0 0 360px;
+}
