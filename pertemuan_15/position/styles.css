@@ -1,0 +1,142 @@
+/* RELATIVE */
+/* div.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    left: 20px;
+    top: 20px;
+} 
+
+div.box2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+div.box3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    bottom: 20px;
+    left:20px;
+}*/
+
+/* ABSOLUTE */
+
+/* div.klas1 {
+    background-color: yellow;
+    position: relative;
+    width: 100px;
+    height: 300px;
+}
+
+div.klas2 {
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+div.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;*/ 
+    /* left: 50px; */
+    /* right: 50px;
+
+}
+
+div.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+div.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+    
+} */
+
+/* FIXED */
+/* h1{
+    margin-top: 100px;       
+}
+div.nav-fixed {
+    width: 500px;
+    height: 100px;
+    background-color: crimson;
+    position: fixed;
+    z-index: 1; 
+    left: 0px;
+    top: 0px;
+}
+
+div.box1 {
+    width: 100px;
+    height: 700px;
+    background-color: red;
+    position: absolute; 
+    /* left: 50px; */
+    /* right: 50px;
+
+}*/
+
+/* STICKY */
+
+h1{
+    margin-top: 100px;       
+}
+
+div.nav-fixed {
+    width: 500px;
+    height: 100px;
+    background-color: crimson;
+    position: fixed;
+    z-index: 1; 
+    left: 0px;
+    top: 0px;
+}
+
+div.klas1 {
+    background-color: yellow;
+    position: relative;
+    width: 100px;
+    height: 300px;
+}
+
+div.klas2 {
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    position: sticky;
+    top: 60px;
+    left: 0px;
+}
+
+div.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;*/ 
+    /* left: 50px; */
+    right: 50px;
+
+}
+
+div.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+div.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}

@@ -1,0 +1,19 @@
+span {
+
+    /* display: inline-block; */
+    /* display: block; */
+    /* display: none; */
+    visibility: hidden;
+    margin: 20px;
+    padding: 20px; */
+}
+
+div {
+    /* display: inline; */
+    margin: 20px;
+    padding: 20px; 
+}
+
+p{
+    display: block;
+}
