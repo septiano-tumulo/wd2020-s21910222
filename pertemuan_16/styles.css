@@ -1,0 +1,14 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 5.5em;
+    width: 50%;
+    margin: 0 auto;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
