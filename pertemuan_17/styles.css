@@ -1,41 +1,23 @@
-/* BAGIAN REM */
-    /* sebagai root/html */
-html{
-    font-size: 30px;
-}
-/* PX */
-    /* resolusi layar (absolute) */
-.satuanpx {
-    font-size: 20px;
+h1{
+    font-size: 5rem;
 }
 
-/* EM */
-    /* 1em = ..px yang digunakan misalnya parentnya 30px jika di h1 font-sizenya 4em itu berarti 30 * 4 = 120px sedangkan di p font-sizenya 2em berarti 30 * 2 = 60px */
-.satuanem{
-    font-size: 20px;
+p {
+    font-size: 2rem;
+    letter-spacing: 1xpx;
 }
 
-.satuanem h1{
-    font-size: 4em;
+@media screen and (max-width: 900px){
+    h1{
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1rem;
+    }  
 }
 
-.satuanem p{
-    font-size: 2em;
-}
-
-/* REM */
-    1rem = ..px yang ada di root atau html jadi tidak akan mengambil ukuran px di parentnya misalnya html font-sizenya 20px jika di h1 font-sizenya 4rem itu berarti 20 * 4 = 80px sedangkan di p font-sizenya 3rem itu berarti 20 * 3 = 60px
-.satuanrem{
-    font-size: 20px;
-}
-.satuanrem h1{
-    font-size: 4rem;
-}
-.satuanrem p{
-    font-size: 3rem;
-}
-
-
-h2{
-    font-size: 20px;
+@media screen and (max-width: 400px){
+    img{
+        display: block;
+    }
 }
