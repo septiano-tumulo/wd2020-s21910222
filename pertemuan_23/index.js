@@ -11,7 +11,7 @@
 // let alamat;
 // console.log(alamat); //undefined
 
-// const tahunLahir = 2001;
+// const tahunLahir = 2002;
 // console.log(tahunLahir);
       
 // Operator
@@ -21,8 +21,8 @@
 // let angka2 = 20;
 // console.log(angka1+angka2);
 
-// let namaDepan = "Virjin";
-// let namaBelakang = "Husain";
+// let namaDepan = "Septiano";
+// let namaBelakang = "Tummulo";
 // console.log("Nama Saya" + namaDepan + " "+ namaBelakang + ". Umur saya adalah" + umur + "Tahun"
 // );
 
