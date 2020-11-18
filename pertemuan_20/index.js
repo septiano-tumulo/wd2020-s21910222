@@ -59,17 +59,19 @@
   BMI = berat/(tinggi*tinggi);
   console.log ("BMI = " + BMI);
   // maaf sir saya tambahkan if else, karena saya pikir ini hampir sama dengan c++. sumber : internet
-  if(BMI>27){ 
+function panggilBMI(){   //Function
+    if(BMI>27){          //conditional
       ket = "Obesitas";
-  }
-  else if((BMI>=25.1) & (BMI<=27)){
+    }
+    else if((BMI>=25.1) & (BMI<=27)){
       ket = "Gemuk";
-  }
-  else if((BMI>=18) & (BMI<=25)){
+    }
+    else if((BMI>=18) & (BMI<=25)){
     ket = "Normal";
-  }
-  else{
-    ket = "Kurus";
-  }
-
-console.log("ket : " + ket);
+    }
+    else{
+      ket = "Kurus";
+    }
+}
+panggilBMI();
+  console.log("ket : " + ket);
