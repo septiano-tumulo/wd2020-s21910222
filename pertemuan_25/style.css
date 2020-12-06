@@ -1,0 +1,22 @@
+.header{
+    color: blue;
+}
+
+div.nav{
+    font-family: 'Henny Penny', cursive,'Lobster', cursive,'Oswald', sans-serif;    
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background:linear-gradient(to right, #000050, #167792);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+body{
+    background: linear-gradient(to left, #000050, #167792);
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif,'Lobster', cursive,'Oswald', sans-serif;
+}
